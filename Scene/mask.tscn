@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://trklc2vpxgum"]
 
 [ext_resource type="Texture2D" uid="uid://bv5idix4p0ks2" path="res://assets/МаскаПеред.png" id="1_oilhy"]
-[ext_resource type="PackedScene" uid="uid://d1l0t7jqpkxgu" path="res://interactable.tscn" id="2_1rsgv"]
+[ext_resource type="PackedScene" uid="uid://d1l0t7jqpkxgu" path="res://Scene/interactable.tscn" id="2_1rsgv"]
+
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_8yek2"]
 

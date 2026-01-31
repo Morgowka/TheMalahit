@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b4gl3kbrm7utt"
-path="res://.godot/imported/Палыч (2).png-1b5ae845889143e522d9b5d69a72e647.ctex"
+uid="uid://bdpw3waa4wi5d"
+path="res://.godot/imported/tiles_cave_bricks.png-ab05725eceb591b03cb9fbcf4999a91c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/enemy/Палыч (2).png"
-dest_files=["res://.godot/imported/Палыч (2).png-1b5ae845889143e522d9b5d69a72e647.ctex"]
+source_file="res://assets/map/tiles_cave_bricks.png"
+dest_files=["res://.godot/imported/tiles_cave_bricks.png-ab05725eceb591b03cb9fbcf4999a91c.ctex"]
 
 [params]
 
