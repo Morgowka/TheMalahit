@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bivivwutinrt2"
-path="res://.godot/imported/tilescave.png-f7db6a0c3a534c32575d80b7ab066388.ctex"
+uid="uid://cqe86ok2717ad"
+path="res://.godot/imported/tiles_cave_bricks.png-ab05725eceb591b03cb9fbcf4999a91c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/map/tilescave.png"
-dest_files=["res://.godot/imported/tilescave.png-f7db6a0c3a534c32575d80b7ab066388.ctex"]
+source_file="res://assets/map/tiles_cave_bricks.png"
+dest_files=["res://.godot/imported/tiles_cave_bricks.png-ab05725eceb591b03cb9fbcf4999a91c.ctex"]
 
 [params]
 

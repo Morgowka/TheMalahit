@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://cjd5yc4r2umcv"]
+
+[ext_resource type="Script" uid="uid://c0jmuleupns5n" path="res://Scripts/node_2d.gd" id="1_vtyw1"]
+[ext_resource type="Texture2D" uid="uid://cqe86ok2717ad" path="res://assets/map/tiles_cave_bricks.png" id="2_gj2p5"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l42dj"]
+texture = ExtResource("2_gj2p5")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_0hol4"]
+tile_size = Vector2i(32, 32)
+physics_layer_0/collision_layer = 1
+sources/2 = SubResource("TileSetAtlasSource_l42dj")
+
+[node name="Node2D" type="Node2D" unique_id=2030468593]
+script = ExtResource("1_vtyw1")
+
+[node name="Ground" type="TileMapLayer" parent="." unique_id=1213417720]
+tile_set = SubResource("TileSet_0hol4")
+
+[node name="Walls" type="TileMapLayer" parent="." unique_id=1667731799]
+tile_set = SubResource("TileSet_0hol4")
+
+[node name="Doorframes" type="TileMapLayer" parent="." unique_id=833215929]
+tile_set = SubResource("TileSet_0hol4")
