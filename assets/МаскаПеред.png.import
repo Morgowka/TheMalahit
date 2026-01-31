@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dkghcoi2iuufo"
-path="res://.godot/imported/tiles_cave_bricks.png-ab05725eceb591b03cb9fbcf4999a91c.ctex"
+uid="uid://bv5idix4p0ks2"
+path="res://.godot/imported/МаскаПеред.png-3439f9cb9c484a105ac9390b040df0fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/map/tiles_cave_bricks.png"
-dest_files=["res://.godot/imported/tiles_cave_bricks.png-ab05725eceb591b03cb9fbcf4999a91c.ctex"]
+source_file="res://assets/МаскаПеред.png"
+dest_files=["res://.godot/imported/МаскаПеред.png-3439f9cb9c484a105ac9390b040df0fa.ctex"]
 
 [params]
 
