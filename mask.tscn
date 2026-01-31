@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://trklc2vpxgum"]
 
+[ext_resource type="Script" uid="uid://iminnif77w4b" path="res://mask.gd" id="1_1rsgv"]
 [ext_resource type="Texture2D" uid="uid://bv5idix4p0ks2" path="res://assets/МаскаПеред.png" id="1_oilhy"]
 [ext_resource type="PackedScene" uid="uid://d1l0t7jqpkxgu" path="res://interactable.tscn" id="2_1rsgv"]
 
@@ -8,7 +9,10 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_hgd7e"]
 radius = 37.054016
 
-[node name="Mask" type="StaticBody2D" unique_id=313168478]
+[node name="Mask" type="Area2D" unique_id=793678251]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_1rsgv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=445886306]
 shape = SubResource("CircleShape2D_8yek2")

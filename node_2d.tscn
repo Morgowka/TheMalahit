@@ -1,6 +1,14 @@
 [gd_scene format=3 uid="uid://cjd5yc4r2umcv"]
 
 [ext_resource type="Script" uid="uid://c0jmuleupns5n" path="res://Scripts/node_2d.gd" id="1_wtcfe"]
+[ext_resource type="PackedScene" uid="uid://trklc2vpxgum" path="res://mask.tscn" id="2_epypp"]
+[ext_resource type="PackedScene" uid="uid://cv6b8pxq561yj" path="res://player.tscn" id="3_0hol4"]
 
 [node name="Node2D" type="Node2D" unique_id=2030468593]
 script = ExtResource("1_wtcfe")
+
+[node name="Mask" parent="." unique_id=313168478 instance=ExtResource("2_epypp")]
+position = Vector2(105, 107)
+
+[node name="Player" parent="." unique_id=1298104728 instance=ExtResource("3_0hol4")]
+position = Vector2(223, 107)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cv2tkxymeofem"
-path="res://.godot/imported/0e039ea334becbdd4cbd3cd59f0791b7.png-15bd5c7e1ba8c2eb776cc9c3aff04507.ctex"
+uid="uid://cp7bh4vr1e1ld"
+path="res://.godot/imported/Снарядить.png-51f7173aa6d208179d227b70c9cb16b4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://0e039ea334becbdd4cbd3cd59f0791b7.png"
-dest_files=["res://.godot/imported/0e039ea334becbdd4cbd3cd59f0791b7.png-15bd5c7e1ba8c2eb776cc9c3aff04507.ctex"]
+source_file="res://assets/mask/Снарядить.png"
+dest_files=["res://.godot/imported/Снарядить.png-51f7173aa6d208179d227b70c9cb16b4.ctex"]
 
 [params]
 
