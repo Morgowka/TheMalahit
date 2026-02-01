@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://dp6vi3f37qwe5"]
+
+[ext_resource type="Script" path="res://Scripts/menu_container.gd" id="1_4k4du"]
+[ext_resource type="Script" path="res://Scripts/control.gd" id="1_kag2x"]
+[ext_resource type="Texture2D" uid="uid://dxmdd7ip1ch6w" path="res://assets/sprites/buttons/Играть1.png" id="3_kag2x"]
+[ext_resource type="AudioStream" path="res://music/HouseWife.mp3" id="4_m6dxm"]
+[ext_resource type="Texture2D" uid="uid://b54n8af6copeg" path="res://assets/sprites/buttons/Настройки1.png" id="4_s61rb"]
+[ext_resource type="Script" uid="uid://cc0w77e6liwkg" path="res://Scripts/play_button.gd" id="4_yx3qh"]
+[ext_resource type="Texture2D" uid="uid://dbmtpuwcc7h4d" path="res://assets/sprites/buttons/Играть2.png" id="5_8ku2i"]
+[ext_resource type="Texture2D" uid="uid://d3fpuobl1obrx" path="res://assets/sprites/buttons/Выход1.png" id="5_yx3qh"]
+
+[sub_resource type="Gradient" id="Gradient_kag2x"]
+offsets = PackedFloat32Array(0, 0.3529412, 0.7058824, 1)
+colors = PackedColorArray(0.011764706, 0.05490196, 0, 1, 0, 0, 0, 1, 0.0014637086, 0.0066193305, 0, 1, 0.011709669, 0.052954644, 0, 1)
+metadata/_snap_count = 17
+metadata/_snap_enabled = true
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_s61rb"]
+gradient = SubResource("Gradient_kag2x")
+
+[node name="Control" type="Control" unique_id=2136611938]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 481.0
+offset_bottom = 271.0
+script = ExtResource("1_kag2x")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=746728133]
+layout_mode = 0
+offset_right = 482.0
+offset_bottom = 272.0
+texture = SubResource("GradientTexture1D_s61rb")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=928905122]
+layout_mode = 0
+offset_left = 186.0
+offset_top = 65.0
+offset_right = 290.0
+offset_bottom = 197.0
+script = ExtResource("1_4k4du")
+
+[node name="PlayButton" type="Button" parent="VBoxContainer" unique_id=1229971097]
+layout_mode = 2
+icon = ExtResource("3_kag2x")
+flat = true
+script = ExtResource("4_yx3qh")
+hover_texture = ExtResource("5_8ku2i")
+
+[node name="SettingsButton" type="Button" parent="VBoxContainer" unique_id=1196721072]
+layout_mode = 2
+icon = ExtResource("4_s61rb")
+flat = true
+
+[node name="QuitButton" type="Button" parent="VBoxContainer" unique_id=318017440]
+layout_mode = 2
+icon = ExtResource("5_yx3qh")
+flat = true
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer" unique_id=1348263913]
+layout_mode = 2
+
+[node name="HouseWife" type="AudioStreamPlayer2D" parent="." unique_id=558760028]
+position = Vector2(238, 47)
+stream = ExtResource("4_m6dxm")
+autoplay = true
+parameters/looping = true

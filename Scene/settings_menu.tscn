@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cv0dfuep4g4nc"]
+
+[ext_resource type="Script" path="res://settings_menu.gd" id="1_pyvgt"]
+
+[node name="SettingsMenu" type="Node2D" unique_id=1036826983]
+script = ExtResource("1_pyvgt")
